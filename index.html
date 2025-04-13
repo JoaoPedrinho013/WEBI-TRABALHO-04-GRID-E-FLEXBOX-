@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:wght@700&family=JetBrains+Mono:wght@400&family=Ponomar&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="image/logos/logo_icone.ico" type="image/x-icon">
     <title>ReparaBit | Seu setup, nossa missão!</title>
 </head>
@@ -12,21 +17,29 @@
 
 <body>
     <header id="menu">
-        <img src="image/logos/logo_completa_preta.png" alt="logo_preta" class="logo_completa">
-        <a href="#menu" class="links">Home</a>
-        <a href="#sobre" class="links">Sobre</a>
-        <a href="#servicos" class="links">Serviços</a>
-        <a href="#contato" class="links">Contato</a>
+
+        <a href="#home">
+            <img src="image/logos/logo_completa_azul.png" alt="logo_preta" class="logo_completa">
+        </a>
+
+        <div class="links">
+            <a href="#home" class="link">Home</a>
+            <a href="#sobre" class="link">Sobre</a>
+            <a href="#servicos" class="link">Serviços</a>
+            <a href="#contato" class="link">Contato</a>
+        </div>
     </header>
 
     <main id="home">
-        <section>
-            <p>Seu Setup antes da ReparaBit</p>
-            <img src="image/setup_pobre.jpg" alt="">
-        </section>
-        <section>
-            <p>Seu Setup depois da ReparaBit</p>
-            <img src="image/seTOP.png" alt="">
+        <section class="setups">
+            <div class="setup_box">
+                <img src="image/setup_pobre.jpg" alt="">
+                <p>Seu Setup antes da ReparaBit</p>
+            </div>
+            <div class="setup_box">
+                <img src="image/seTOP.png" alt="">
+                <p>Seu Setup depois da ReparaBit</p>
+            </div>
         </section>
         <section id="sobre">
             <p>Somos a Reparabit, uma empresa pequena, formada por duas pessoas apaixonadas por tecnologia e qualidade.
@@ -34,7 +47,7 @@
                 sempre com atenção aos detalhes, preço justo e atendimento de confiança. Aqui, cada computador é tratado
                 como se fosse nosso, porque acreditamos que um bom serviço começa com cuidado e termina com resultado.
             </p>
-            <img src="image/setup_parallax.png" alt="setup">
+            <img src="image/setup_parallax.png" width="100%" alt="setup">
         </section>
 
         <section id="servicos" class="servicos_box">
