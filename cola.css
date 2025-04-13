@@ -1,0 +1,54 @@
+.servicos_box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2%;
+    text-align: center;
+    padding: 2%;
+}
+
+.titulo_servicos{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.conserto_notebook:hover{
+    border: 1px solid #3590d5;
+    box-shadow: 2px 2px 5px #3590d5;
+    text-shadow: 1px 1px 3px lightskyblue;
+    color: lightskyblue;
+}
+
+.conserto_computador:hover{
+    border: 1px solid #3590d5;
+    box-shadow: 2px 2px 5px #3590d5;
+    text-shadow: 1px 1px 3px lightskyblue;
+    color: lightskyblue;
+}
+
+.limpeza_pc_note:hover{
+    border: 1px solid #3590d5;
+    box-shadow: 2px 2px 5px #3590d5;
+    text-shadow: 1px 1px 3px lightskyblue;
+    color: lightskyblue;
+}
+
+.montagem_computador:hover{
+    border: 1px solid #3590d5;
+    box-shadow: 2px 2px 5px #3590d5;
+    text-shadow: 1px 1px 3px lightskyblue;
+    color: lightskyblue;
+}
+
+.upgrades{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-items: center;
+}
+
+.upgrades:hover{
+    border: 1px solid #3590d5;
+    box-shadow: 1px 1px 3px #3590d5;
+    text-shadow: 1px 1px 3px lightskyblue;
+    color: lightskyblue;
+}
