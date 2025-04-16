@@ -123,7 +123,7 @@ html {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 2rem; /* Garante espaço interno responsivo */
+        padding: 2rem;
 }
 
 .imagem_parallax:hover {
@@ -299,37 +299,30 @@ html {
 
 .rodape_box {
     background-color: silver;
-    display: flex;
-    padding-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1%;
+    padding: 2% 5% 5% 5%; 
 }
 
-.direitos{
-    background-color: #1A1A1E;
-    color: rgba(255, 255, 255, 0.342);
-    text-align: center;
-    
-    padding: 3% 0 1.5% 0;
-
-}
 .divs_rodape {
-    
     border-radius: 1%;
-    width: 33.3%;
     text-align: center;
     font-family: "Limelight", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5em;
-    margin: 0.5%;
 }
 
 .horario_funcionamento {
-    margin-top: 8%;
+    margin-top: 25%;
 }
+
 .horario_funcionamento:hover {
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.493));
     transition: box-shadow 0.3s ease-in-out;
 }
+
 .mapa > iframe {
     width: 90%;
     height: 50%;
@@ -343,28 +336,34 @@ html {
     height: 60%;
     margin: 3% 0;
 }
+
 .mapa > a, 
-.mapa > div > a  {
+.mapa > div > a {
     text-decoration: none;
     color: black;
-    
 }
+
 .mapa > a:hover,
 .mapa > div > a:hover {
     text-decoration: underline;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.493));
     transition: box-shadow 0.3s ease-in-out;
 }
+
 .div_contato_rodape {
     margin-top: 10%;
 }
+
 .link_contato_cadu {
     margin-left: 20%;
 }
+
 .link_contato_pedro {
     margin-left: 28.5%;
 }
-.logo_rodape:hover{
+
+.logo_rodape:hover {
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.493));
     transition: box-shadow 0.3s ease-in-out;
 }
+
