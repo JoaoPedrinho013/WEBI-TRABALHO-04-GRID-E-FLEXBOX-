@@ -23,7 +23,7 @@ html {
 .logo_completa {
     width: 50%;
     margin: 1% 5%;
-}
+}   
 
 .logo_completa:hover {
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.493));
@@ -110,20 +110,20 @@ html {
 }
 
 .imagem_parallax {
-        width: 85vw;
-        height: 80vh;
-        background-image: url('image/setups/setup_parallax.png');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 2rem;
+    width: 85vw;
+    height: 80vh;
+    background-image: url('image/setups/setup_parallax.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
 }
 
 .imagem_parallax:hover {
@@ -270,7 +270,7 @@ html {
 .whats_form_esq {
     text-decoration: none;
     color: rgb(88, 88, 88);
-    margin-right: 40%;
+    margin-right: 5%;
 }
 
 .whats_form_dir {
@@ -317,9 +317,7 @@ html {
     background-color: #1A1A1E;
     color: rgba(255, 255, 255, 0.342);
     text-align: center;
-    
     padding: 3% 0 1.5% 0;
-
 }
 
 .horario_funcionamento {
