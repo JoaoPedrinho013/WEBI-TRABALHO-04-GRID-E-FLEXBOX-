@@ -2,12 +2,16 @@ body,
 html {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: rgba(0, 0, 0, 0.034);
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+}
+
 
 #menu {
     display: flex;
@@ -371,5 +375,14 @@ html {
 .logo_rodape:hover {
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.493));
     transition: box-shadow 0.3s ease-in-out;
+}
+
+.mudar_tema {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.678);
+    width: 7%;
+    margin-right: 1%;
+    border: 1px solid rgb(133, 133, 133);
+   
 }
 
