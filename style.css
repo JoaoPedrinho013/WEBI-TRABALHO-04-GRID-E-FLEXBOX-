@@ -313,6 +313,14 @@ html {
     font-style: normal;
     font-size: 1.5em;
 }
+.direitos{
+    background-color: #1A1A1E;
+    color: rgba(255, 255, 255, 0.342);
+    text-align: center;
+    
+    padding: 3% 0 1.5% 0;
+
+}
 
 .horario_funcionamento {
     margin-top: 25%;
