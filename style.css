@@ -311,7 +311,7 @@ html {
     font-family: "Limelight", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 .direitos{
     background-color: #1A1A1E;
@@ -321,7 +321,7 @@ html {
 }
 
 .horario_funcionamento {
-    margin-top: 25%;
+    margin-top: 45%;
 }
 
 .horario_funcionamento:hover {
@@ -361,11 +361,11 @@ html {
 }
 
 .link_contato_cadu {
-    margin-left: 20%;
+    margin-left: 5%;
 }
 
 .link_contato_pedro {
-    margin-left: 28.5%;
+    margin-left: 13.5%;
 }
 
 .logo_rodape:hover {
